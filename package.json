@@ -1,0 +1,43 @@
+{
+  "name": "Angular-JSPM",
+  "version": "0.0.1",
+  "description": "A seed application built with Angular2, Typescript, and JSPM.",
+  "author": "andrew.mark.schneider@gmail.com",
+  "devDependencies": {
+    "browser-sync": "^2.10.0",
+    "del": "^2.1.0",
+    "gulp": "^3.9.0",
+    "gulp-inline-ng2-template": "0.0.10",
+    "gulp-prompt": "^0.1.2",
+    "gulp-sass": "^2.1.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-tslint": "^3.6.0",
+    "gulp-typedoc": "^1.2.1",
+    "gulp-typescript": "^2.8.0",
+    "jasmine-core": "^2.4.1",
+    "jspm": "^0.16.25",
+    "jspm-bower-endpoint": "^0.3.2",
+    "jspm-git": "^0.4.2",
+    "karma": "^0.13.21",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-firefox-launcher": "^0.1.7",
+    "karma-jasmine": "^0.3.6",
+    "karma-jspm": "^2.0.2",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "lodash": "^4.2.1",
+    "phantomjs-prebuilt": "^2.1.4"
+  },
+  "jspm": {
+    "configFile": "jspm-config.js",
+    "dependencies": {
+      "angular2": "npm:angular2@^2.0.0-beta.7",
+      "es6-promise": "npm:es6-promise@^3.1.2",
+      "es6-shim": "github:es-shims/es6-shim@^0.34.4",
+      "lodash": "npm:lodash@^4.5.0",
+      "reflect-metadata": "npm:reflect-metadata@^0.1.3",
+      "rxjs": "npm:rxjs@^5.0.0-beta.2",
+      "zone.js": "npm:zone.js@^0.5.14"
+    },
+    "devDependencies": {}
+  }
+}
